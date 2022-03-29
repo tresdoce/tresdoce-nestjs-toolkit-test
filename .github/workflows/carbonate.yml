@@ -1,0 +1,22 @@
+name: "Carbonate"
+
+on:
+  issue_comment:
+    types: [created]
+  issues:
+    types: [opened]
+
+jobs:
+  carbonate:
+    runs-on: ubuntu-latest
+    name: "Carbonate"
+    steps:
+      - name: "🖼  Generate images"
+        uses: callmekatootie/carbonate@v1.0.2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          imgur-client-id: ${{ secrets.IMGUR_CLIENT_ID }}
+          use-prettier: 'true'
+          prettier-options: "{\"semi\":true,\"tabWidth\":2,\"singleQuote\":true,\"printWidth\":100,\"trailingComma\":\"all\"}"
+          carbon-options: "{\"paddingVertical\":\"56px\",\"paddingHorizontal\":\"56px\",\"backgroundColor\":\"linear-gradient(tolefttop,#16222a,#1f303b,#28404d,#315060,#3a6073)\",\"dropShadow\":true,\"dropShadowOffsetY\":\"20px\",\"dropShadowBlurRadius\":\"68px\",\"theme\":\"material\",\"windowTheme\":\"none\",\"language\":\"auto\",\"fontFamily\":\"Hack\",\"fontSize\":\"14px\",\"lineHeight\":\"143%\",\"windowControls\":false,\"widthAdjustment\":true,\"lineNumbers\":false,\"exportSize\":\"2x\",\"watermark\":false}"
+
