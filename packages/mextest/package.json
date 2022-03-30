@@ -1,7 +1,7 @@
 {
-  "name": "@test-tresdoce-nestjs-toolkit/pkgdemo",
+  "name": "@test-tresdoce-nestjs-toolkit/mextest",
   "version": "0.0.0",
-  "description": "NestJS - pkgdemo",
+  "description": "NestJS - mextest",
   "author": {
     "name": "Maximiliano \"Mex\" Delgado",
     "email": "mdelgado@tresdoce.com.ar",
@@ -13,7 +13,7 @@
   },
   "keywords": [
     "nestjs",
-    "pkgdemo"
+    "mextest"
   ],
   "repository": {
     "type": "git",
@@ -27,12 +27,12 @@
   "license": "MIT",
   "scripts": {
     "prebuild": "shx rm -rf pkg",
-    "build": "pika build --out ../../dist/pkgdemo",
+    "build": "pika build --out ../../dist/mextest",
     "test": "jest --runInBand --detectOpenHandles --coverage"
   },
   "publishConfig": {
     "access": "public",
-    "directory": "../../dist/pkgdemo"
+    "directory": "../../dist/mextest"
   },
   "peerDependencies": {
     "@nestjs/common": "^8.2.0",
