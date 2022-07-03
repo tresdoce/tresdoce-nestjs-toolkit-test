@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.0.2-beta.0](https://github.com/tresdoce/tresdoce-nestjs-toolkit-test/compare/@test-tresdoce-nestjs-toolkit/demopkg@0.0.1...@test-tresdoce-nestjs-toolkit/demopkg@0.0.2-beta.0) (2022-07-03)
+
+### 👨‍💻 Chores
+
+- resolve any ([e157845](https://github.com/tresdoce/tresdoce-nestjs-toolkit-test/commit/e157845e8ebbfefd1683bc64e96bbc46b8d269c6))
+
 ### [0.0.1](https://github.com/tresdoce/tresdoce-nestjs-toolkit-test/compare/@test-tresdoce-nestjs-toolkit/demopkg@0.0.1-beta.1...@test-tresdoce-nestjs-toolkit/demopkg@0.0.1) (2022-03-29)
 
 ### 👨‍💻 Chores
