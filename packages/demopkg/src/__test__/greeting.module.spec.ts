@@ -14,6 +14,10 @@ describe('GreetingModule', () => {
     await app.init();
   });
 
+  afterEach(async () => {
+    await app.close();
+  });
+
   it('should be defined', () => {
     expect(app).toBeDefined();
   });
