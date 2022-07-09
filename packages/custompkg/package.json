@@ -42,8 +42,8 @@
     "rxjs": "^7.5.5"
   },
   "devDependencies": {
-    "@test-tresdoce-nestjs-toolkit/configs": "^0.0.0",
-    "@types/tresdoce-nestjs-toolkit": "^0.0.0"
+    "@test-tresdoce-nestjs-toolkit/configs": "^0.0.1",
+    "@types/tresdoce-nestjs-toolkit": "^0.0.1"
   },
   "prettier": {
     "semi": true,
