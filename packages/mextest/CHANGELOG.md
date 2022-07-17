@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.0-beta.0](https://github.com/tresdoce/tresdoce-nestjs-toolkit-test/compare/@test-tresdoce-nestjs-toolkit/mextest@0.0.3...@test-tresdoce-nestjs-toolkit/mextest@1.0.0-beta.0) (2022-07-17)
+
+### ⚠ BREAKING CHANGES
+
+- **mextest:** mextest
+
+### ♻️Refactors
+
+- **mextest:** change function name in mextest ([c7c52f2](https://github.com/tresdoce/tresdoce-nestjs-toolkit-test/commit/c7c52f2291fea49e2703ff97d5cba5c27b926e04))
+
 ### [0.0.3](https://github.com/tresdoce/tresdoce-nestjs-toolkit-test/compare/@test-tresdoce-nestjs-toolkit/mextest@0.0.3-beta.0...@test-tresdoce-nestjs-toolkit/mextest@0.0.3) (2022-07-03)
 
 **Note:** Version bump only for package @test-tresdoce-nestjs-toolkit/mextest
