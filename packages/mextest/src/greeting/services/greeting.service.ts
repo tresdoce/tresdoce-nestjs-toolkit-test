@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class GreetingService {
-  getHello(): string {
+  sayHello(): string {
     return '¡Hello from the new package mextest!';
   }
 }

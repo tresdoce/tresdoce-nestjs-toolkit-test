@@ -16,6 +16,6 @@ describe('GreetingService', () => {
     expect(service).toBeDefined();
   });
   it('should be return message when call the getHello function', () => {
-    expect(service.getHello()).toBe('¡Hello from the new package mextest!');
+    expect(service.sayHello()).toBe('¡Hello from the new package mextest!');
   });
 });
