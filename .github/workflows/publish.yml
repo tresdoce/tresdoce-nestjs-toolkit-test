@@ -104,7 +104,7 @@ jobs:
           if ${{github.event.inputs.release == 'pre-release'}}; then
             yarn version-packages --no-changelog --conventional-prerelease --preid=beta -m "ci(version): version packages as pre-release"
           else
-            yarn version-packages --conventional-graduate -m "ci(version): version packages as release"
+            yarn version-packages --create-release --conventional-graduate -m "ci(version): version packages as release"
           fi
 
       - name: "🚀 Publish packages to npm 🎉"

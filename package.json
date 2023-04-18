@@ -22,7 +22,7 @@
     "lint": "lint-staged",
     "prepublishOnly": "yarn build",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "version-packages": "lerna version --conventional-commits --force-git-tag --create-release github --yes",
+    "version-packages": "lerna version --conventional-commits --force-git-tag github --yes",
     "publish:pkgs": "lerna publish from-git --no-verify-access --yes",
     "postinstall": "husky install && lerna bootstrap",
     "plop": "plop"
@@ -106,7 +106,7 @@
     "ts-loader": "^9.2.6",
     "ts-node": "^10.4.0",
     "tsconfig-paths": "^3.12.0",
-    "turbo": "latest",
+    "turbo": "1.9.3",
     "typescript": "^4.5.5"
   }
 }
