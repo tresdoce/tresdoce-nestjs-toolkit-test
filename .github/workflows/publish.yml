@@ -105,7 +105,7 @@ jobs:
             #yarn version-packages --conventional-prerelease --preid=beta -m "ci(version): version packages as pre-release"
             yarn version-packages-pre --no-changelog --preid=beta -m "ci(version): version packages as pre-release"
           else
-            yarn version-packages --create-release --conventional-graduate -m "ci(version): version packages as release"
+            yarn version-packages --conventional-graduate -m "ci(version): version packages as release"
           fi
 
       - name: "🚀 Publish packages to npm 🎉"

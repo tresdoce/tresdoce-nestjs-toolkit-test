@@ -1,5 +1,5 @@
 {
-  "name": "@test-tresdoce-nestjs-toolkit/root",
+  "name": "root",
   "description": "Tresdoce NestJs Toolkit test monorepo",
   "author": {
     "name": "Maximiliano \"Mex\" Delgado",
@@ -23,7 +23,7 @@
     "prepublishOnly": "yarn build",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "version-packages-pre": "lerna version prerelease --conventional-commits --force-git-tag --yes",
-    "version-packages": "lerna version --conventional-commits --force-git-tag github --yes",
+    "version-packages": "lerna version --conventional-commits --force-git-tag --create-release github --yes",
     "publish:pkgs": "lerna publish from-git --no-verify-access --yes",
     "postinstall": "husky install && lerna bootstrap",
     "plop": "plop"
