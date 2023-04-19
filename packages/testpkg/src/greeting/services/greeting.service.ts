@@ -4,6 +4,7 @@ import { Injectable } from '@nestjs/common';
 export class GreetingService {
   getHello(): string {
     //some comment
+    //another
     return '¡Hello from the new package testpkg!';
   }
 }
