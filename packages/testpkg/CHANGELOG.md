@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.0.7](https://github.com/tresdoce/tresdoce-nestjs-toolkit-test/compare/@test-tresdoce-nestjs-toolkit/testpkg@0.0.6...@test-tresdoce-nestjs-toolkit/testpkg@0.0.7) (2023-04-19)
+
+### 🐛 Bug Fixes
+
+- another commit ([5f0368e](https://github.com/tresdoce/tresdoce-nestjs-toolkit-test/commit/5f0368e4aa7fba5c904f6495f1702647ec30d1f9))
+- **scope:** another commit ([87d57a7](https://github.com/tresdoce/tresdoce-nestjs-toolkit-test/commit/87d57a79c7ba3237ce6cab9fdb7cc9c4319ef9b2))
+
 ### [0.0.6](https://github.com/tresdoce/tresdoce-nestjs-toolkit-test/compare/@test-tresdoce-nestjs-toolkit/testpkg@0.0.5...@test-tresdoce-nestjs-toolkit/testpkg@0.0.6) (2023-04-19)
 
 ### 🐛 Bug Fixes
