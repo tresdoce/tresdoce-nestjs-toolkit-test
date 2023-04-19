@@ -102,9 +102,9 @@ jobs:
           git config --global user.email "${GITHUB_EMAIL}"
           
           if ${{github.event.inputs.release == 'pre-release'}}; then
-            yarn version-packages-pre --conventional-prerelease --no-changelog --preid=beta -m "ci(version): version packages as pre-release"
+            yarn version-packages --conventional-prerelease --preid=beta -m "ci(version): version packages as pre-release"
           else
-            yarn version-packages --create-release --conventional-graduate -m "ci(version): version packages as release"
+            yarn version-packages --conventional-graduate -m "ci(version): version packages as release"
           fi
 
       - name: "🚀 Publish packages to npm 🎉"
