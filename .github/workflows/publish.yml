@@ -103,7 +103,7 @@ jobs:
           
           if ${{github.event.inputs.release == 'pre-release'}}; then
             #yarn version-packages --conventional-prerelease --preid=beta -m "ci(version): version packages as pre-release"
-            yarn version-packages --conventional-prerelease -m "ci(version): version packages as pre-release"
+            yarn version-packages --no-changelog -m "ci(version): version packages as pre-release"
           else
             yarn version-packages --create-release --conventional-graduate -m "ci(version): version packages as release"
           fi
