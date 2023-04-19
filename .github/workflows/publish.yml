@@ -104,7 +104,7 @@ jobs:
           if ${{github.event.inputs.release == 'pre-release'}}; then
             yarn version-packages-pre
             git add .
-            git commit -m "ci(version): version packages as pre-release"
+            git commit -m "ci(version): version packages as pre-release" --no-verify
             git push -f
           else
             yarn version-packages
