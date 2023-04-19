@@ -1,6 +1,6 @@
 {
   "name": "@test-tresdoce-nestjs-toolkit/testpkg",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "NestJS - testpkg",
   "author": {
     "name": "Maximiliano \"Mex\" Delgado",
