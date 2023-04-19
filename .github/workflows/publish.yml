@@ -102,7 +102,7 @@ jobs:
           git config --global user.email "${GITHUB_EMAIL}"
           
           if ${{github.event.inputs.release == 'pre-release'}}; then
-            lerna version --conventional-commits --no-changelog --conventional-prerelease --force-git-tag --preid=beta --yes -m "ci(version): version packages as pre-release"
+            lerna version prerelease --conventional-commits --no-changelog --conventional-prerelease --force-git-tag --preid=beta --yes -m "ci(version): version packages as pre-release"
           else
             lerna version --conventional-commits --create-release github --conventional-graduate --force-git-tag --yes -m "ci(version): version packages as release"
           fi
