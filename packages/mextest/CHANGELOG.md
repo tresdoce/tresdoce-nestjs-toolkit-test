@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.0](https://github.com/tresdoce/tresdoce-nestjs-toolkit-test/compare/@test-tresdoce-nestjs-toolkit/mextest@1.0.2-beta.0...@test-tresdoce-nestjs-toolkit/mextest@1.1.0) (2023-04-19)
+
+### 👨‍💻 Chores
+
+- **mextest:** add comment in service ([5813ee4](https://github.com/tresdoce/tresdoce-nestjs-toolkit-test/commit/5813ee4d0e7df0ed5dee6491254820d18d2fb99c))
+
+### ✨ Features
+
+- **mextest:** add second comment in service ([e7a411f](https://github.com/tresdoce/tresdoce-nestjs-toolkit-test/commit/e7a411f1b51b0cb6973e31ab6e9b22caaac2d1ad))
+
+### 🐛 Bug Fixes
+
+- **mextest:** remove comments in service ([569126b](https://github.com/tresdoce/tresdoce-nestjs-toolkit-test/commit/569126b76be15424b2fb176ba78291490d8494ec))
+
 ### [1.0.1](https://github.com/tresdoce/tresdoce-nestjs-toolkit-test/compare/@test-tresdoce-nestjs-toolkit/mextest@1.0.1-beta.1...@test-tresdoce-nestjs-toolkit/mextest@1.0.1) (2023-04-19)
 
 **Note:** Version bump only for package @test-tresdoce-nestjs-toolkit/mextest
