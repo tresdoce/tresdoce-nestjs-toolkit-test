@@ -1,6 +1,6 @@
 {
   "name": "@test-tresdoce-nestjs-toolkit/mextest",
-  "version": "1.1.1-beta.0",
+  "version": "1.1.1",
   "description": "NestJS - mextest",
   "author": {
     "name": "Maximiliano \"Mex\" Delgado",
