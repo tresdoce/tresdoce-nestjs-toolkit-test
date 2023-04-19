@@ -6,6 +6,7 @@
   "ignoreChanges": [ "**/__tests__/**", "**/*.md"],
   "command": {
     "version": {
+      "allowBranch": ["master"],
       "conventionalCommits": true,
       "changelogPreset": {
         "name": "conventionalcommits",
