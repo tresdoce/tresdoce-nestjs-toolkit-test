@@ -105,7 +105,7 @@ jobs:
             yarn version-packages-pre
             git add .
             git commit -m "ci(version): version packages as pre-release"
-            git push
+            git push -f
           else
             yarn version-packages
           fi
